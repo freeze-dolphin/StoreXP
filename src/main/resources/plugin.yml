@@ -1,0 +1,15 @@
+name: StoreXP
+version: '${version}'
+main: io.sn.storexp.Genesis
+api-version: '1.20'
+
+permissions:
+  storexp.use:
+    description: Allow store xp using empty bottles
+    default: true
+  storexp.command.give:
+    description: Allow give player a experience bottle with specific number of stored xp
+    default: op
+  storexp.command.reload:
+    description: Allow reload configuration
+    default: op

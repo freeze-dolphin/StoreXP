@@ -1,0 +1,13 @@
+level-per-store: 1
+
+sound:
+  on-store: "ITEM_BOTTLE_FILL;1.0;1.0"
+  on-use: "ENTITY_EXPERIENCE_ORB_PICKUP;1.0;1.0"
+
+message:
+  no-sufficient: "<red>你没有足够的经验来灌满一个瓶子"
+
+# we store value by using PDC, so feel free to change the lore below
+item-lore:
+  - "<!italic><green>固定化经验值:"
+  - "<!italic><gray> %value% <white>XP"
